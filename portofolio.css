@@ -1,0 +1,203 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+    header{
+     background-image: url(https://images.pexels.com/photos/917479/pexels-photo-917479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+	 background-repeat: no-repeat;
+	  height:100vh;
+	background-position: center;
+	
+     }
+
+
+.names{
+
+	text-align: center;
+	position: absolute;
+top: 50%;
+left: 50%;
+
+transform: translate(-50%,-50%);
+	font-size: 20px;
+  letter-spacing:10px;
+ text-transform: capitalize;
+	color: white;
+	text-shadow: 0 10px 20px rgba(0,0,0,0.4);
+
+}
+
+.pic{
+	width: 80px;
+	height: 90px;
+	background-color: red;
+
+
+}
+.nav{
+	color: white;
+	float: right;
+    margin-top: 30px;
+    width: 90%;
+}
+.nav li{
+	display: inline-block;
+
+	
+}
+
+
+
+.nav li a{
+	color: white;
+	text-decoration: none;
+
+	
+
+	padding: 80px;
+	font-size: 2em; 
+	margin-left: 50px;
+}
+.btn-1 a{
+
+	text-decoration: none;
+	color: white;
+padding: 20px 40px;
+position: absolute;
+top: 50%;
+left: 50%;
+
+transform: translate(-50%,-50%);
+margin-top: 170px;
+border: 1px white solid;
+	border-radius: 200px;
+background-color: transparent;
+}
+.container{
+	text-align: center;
+	display: grid;
+	
+	grid-template-columns: repeat(2,1fr);
+
+
+
+	
+
+	grid-template-areas: 
+	  "pic-1 col";
+}
+.pic-1{
+	grid-area: pic-1;
+	background-color: red;
+	margin-bottom: 10px;
+	  clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
+}
+.col{
+	grid-area: col;
+	  clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
+	background:linear-gradient(to right top, black, grey);
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+	padding-top: 40px;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 30px;
+
+}
+
+h3{
+	text-decoration: underline;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 800;
+}
+
+
+.wrap{
+	display: block;
+
+}
+.gallery{
+	
+display: grid;
+grid-gap:5px;
+text-align:center;
+grid-template-areas: 
+"one two three four five six"
+". seven eight nine ten .";
+}
+.one{
+	grid-area: one;
+	
+}
+.two{
+grid-area:two;
+}
+.three{
+	grid-area:three;
+}
+.four{
+grid-area:four;
+}
+.five{
+	grid-area:five;
+}
+.six{
+	grid-area: six;
+
+}
+.seven{
+grid-area:seven;
+}
+.eight{
+	grid-area:eight;
+}
+.nine{
+grid-area:nine;
+}
+.ten{
+	grid-area:ten;
+}
+h2{
+	letter-spacing: 5px;
+	border-bottom: 1px solid orange;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+footer{
+text-align: center;
+margin: 50px;
+letter-spacing: 10px;
+text-transform: capitalize;
+
+}
+.end{
+	text-align: center;
+	margin-bottom: 50px;
+	letter-spacing: 10px;
+}
+
+
+.fa-instagram {
+
+  color: purple;
+
+}
+.fa-facebook {
+ 
+  color: blue;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
